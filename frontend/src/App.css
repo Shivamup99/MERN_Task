@@ -1,0 +1,198 @@
+body{
+    background-color: #dee9ff;
+}
+
+.registration-form{
+	padding: 50px 0;
+}
+
+.registration-form form{
+    background-color: #fff;
+    max-width: 600px;
+    margin: auto;
+    padding: 50px 70px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.registration-form .form-icon{
+	text-align: center;
+    background-color: #5891ff;
+    border-radius: 50%;
+    font-size: 40px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 50px;
+    line-height: 100px;
+}
+
+.registration-form .item{
+	border-radius: 20px;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+}
+
+.registration-form .create-account{
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #5791ff;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+    .registration-form form{
+        padding: 50px 20px;
+    }
+
+    .registration-form .form-icon{
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+        line-height: 70px;
+    }
+}
+
+.img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+
+}
+
+.page-wrap {
+  min-height: 100vh;
+}
+
+.form-gap {
+    padding-top: 70px;
+}
+.container-div{
+    margin-top: 8rem;
+    margin-left: 30rem;
+}
+
+#intro {
+    /* Margin to fix overlapping fixed navbar */
+    margin-top: 58px;
+  }
+  @media (max-width: 991px) {
+    #intro {
+      /* Margin to fix overlapping fixed navbar */
+      margin-top: 45px;
+    }
+  }
+
+  /* text editor */
+ 
+  .wrapper-class {
+    padding: 1rem;
+    border: 1px solid #ccc;
+  }
+  .editor-class {
+    background-color:lightgray;
+    padding: 1rem;
+    border: 1px solid #ccc;
+  }
+  .toolbar-class {
+    border: 1px solid #ccc;
+  }
+  .about{
+      margin-left: 5rem;
+      padding-right: 3rem;
+      margin-top: 2rem;
+  }
+
+  .title{
+      font-size: 28px;
+      font-weight: 600;
+      color: black;
+      margin-bottom: 2rem;
+  }
+
+  .desc{
+    margin-top: 2rem;
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.registration-forms{
+	padding: 50px 0;
+}
+
+.registration-forms form{
+    background-color: #fff;
+    max-width: 1000px;
+    margin: auto;
+    padding: 70px 90px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.registration-forms .create-account{
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #5791ff;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+/* upload image */
+  
+  
+/* input[type="file"] {
+    display: none;
+} */
+.custom-file-upload {
+    width: 100%;
+    margin-top: 2.5rem;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background:darkorange;
+    color: white;
+    border-radius: 10px;
+}
+
+.blog{
+    text-align: center;
+    color: darkslategray;
+    margin-top: -2.5rem;
+    margin-bottom: 1rem;
+}
+
+.blogs{
+    text-align: center;
+    color: darkslategray;
+    margin-bottom: 3rem;
+}
+.tab-content{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
